@@ -9,10 +9,10 @@
   <body
     class="flex items-center justify-center h-screen bg-gradient-to-t from-sky-500 to-indigo-500"
   >
-    <div class="p-5 m-5 bg-white rounded shadow-lg w-full max-w-md">
+    <div class="p-5 m-5 bg-white rounded shadow-lg w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-4xl">
       <h1 class="text-2xl font-bold text-center text-black mb-5">To-Do List</h1>
 
-      <div class="flex gap-2 mb-6">
+      <div class="flex flex-col sm:flex-row gap-2 mb-6">
         <input
           class="flex-1 p-2 bg-gray-200 rounded"
           type="text"
@@ -21,7 +21,7 @@
         />
         <button
           id="addTaskButton"
-          class="px-4 py-2 text-white bg-orange-600 rounded hover:bg-orange-700"
+          class="mt-2 sm:mt-0 sm:ml-2 px-4 py-2 text-white bg-orange-600 rounded hover:bg-orange-700"
         >
           Add
         </button>
